@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahra Paayanda | Tech Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar" class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h1>Zahra Paayanda | Tech Portfolio</h1>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#cisco" class="nav-link">My Courses</a>
+                <a href="#femstech" class="nav-link">Specializations</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero gradient-primary">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">My Tech Learning Journey</h1>
+                    <p class="hero-description">
+                        Passionate about technology and continuous learning. Completed 5 comprehensive courses in 2025: 
+                        Artificial Intelligence, Cyber Security, Networking Basics, Python Essentials 1, and Endpoint Security 
+                        through Cisco Networking Academy and FemsTech Academy.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-secondary" onclick="scrollToSection('#cisco')">View My Courses</button>
+                        <button class="btn btn-outline" onclick="scrollToSection('#femstech')">Explore Specializations</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="photo_6219494209958823570_y_1749667321059.jpg" alt="Zahra Paayanda - Tech Learning Journey" class="profile-img">
+                        <div class="image-bg"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="organizations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proud Graduate of Leading Technology Organizations</h2>
+                <p class="section-subtitle">Certified through world-renowned institutions committed to advancing technology education and professional development.</p>
+            </div>
+            
+            <div class="organizations-grid">
+                <div class="organization-card">
+                    <div class="org-content">
+                        <div class="org-logo">
+                            <img src="https://femstech.com/assets/images/log.png" alt="FemsTech Academy logo" onerror="this.style.display='none'">
+                        </div>
+                        <h3>FemsTech Academy</h3>
+                        <p>Afghan organization dedicated to empowering women in technology through comprehensive education and professional development</p>
+                        <a href="https://femstech.com" target="_blank" class="org-link">
+                            Visit Website <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="organization-card">
+                    <div class="org-content">
+                        <div class="org-logo">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Cisco_logo_blue_2016.svg/1200px-Cisco_logo_blue_2016.svg.png" alt="Cisco Networking Academy logo" onerror="this.style.display='none'">
+                        </div>
+                        <h3>Cisco Networking Academy</h3>
+                        <p>Global leader in networking technology education and industry-standard certification programs</p>
+                        <a href="https://www.netacad.com" target="_blank" class="org-link">
+                            Visit Website <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="partnership-info">
+                <h3>Partnership in Excellence</h3>
+                <p>The partnership between FemsTech Academy, an innovative Afghan organization empowering women in technology, and Cisco Networking Academy has created a unique educational pathway that combines global industry standards with culturally relevant support, fostering both technical excellence and professional confidence in the evolving technology landscape.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number text-primary">5</div>
+                    <div class="stat-label">Courses Completed</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number text-accent">2</div>
+                    <div class="stat-label">Academy Programs</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number text-secondary">2025</div>
+                    <div class="stat-label">Graduation Year</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cisco" class="cisco-courses">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Cisco & FemsTech Learning Journey</h2>
+                <p class="section-subtitle">Five comprehensive courses completed through Cisco Networking Academy and FemsTech Academy in 2025, covering essential technology skills and modern digital competencies.</p>
+            </div>
+            
+            <div class="courses-grid">
+                <div class="course-card" data-gradient="blue">
+                    <div class="course-header gradient-blue">
+                        <i class="fas fa-brain"></i>
+                        <h3>Artificial Intelligence</h3>
+                    </div>
+                    <div class="course-content">
+                        <p>Comprehensive AI course covering machine learning fundamentals, neural networks, and practical AI applications launched by Cisco Networking Academy and FemsTech Academy.</p>
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Completed in 2025</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-award"></i>
+                                <span>Certificate Earned</span>
+                            </div>
+                        </div>
+                        <div class="course-tags">
+                            <span class="tag tag-blue">AI</span>
+                            <span class="tag tag-blue">Machine Learning</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-gradient="green">
+                    <div class="course-header gradient-green">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cyber Security</h3>
+                    </div>
+                    <div class="course-content">
+                        <p>Advanced cybersecurity training covering threat detection, risk assessment, and security implementation strategies launched by Cisco Networking Academy and FemsTech Academy.</p>
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Completed in 2025</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-award"></i>
+                                <span>Certificate Earned</span>
+                            </div>
+                        </div>
+                        <div class="course-tags">
+                            <span class="tag tag-green">Security</span>
+                            <span class="tag tag-green">Threats</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-gradient="purple">
+                    <div class="course-header gradient-purple">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Networking Basics</h3>
+                    </div>
+                    <div class="course-content">
+                        <p>Essential networking concepts, protocols, and infrastructure fundamentals launched by Cisco Networking Academy and FemsTech Academy.</p>
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Completed in 2025</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-award"></i>
+                                <span>Certificate Earned</span>
+                            </div>
+                        </div>
+                        <div class="course-tags">
+                            <span class="tag tag-purple">Networking</span>
+                            <span class="tag tag-purple">Protocols</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-gradient="red">
+                    <div class="course-header gradient-red">
+                        <i class="fab fa-python"></i>
+                        <h3>Python Essentials 1</h3>
+                    </div>
+                    <div class="course-content">
+                        <p>Foundational Python programming course covering syntax, data structures, and programming fundamentals launched by Cisco Networking Academy and FemsTech Academy.</p>
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Completed in 2025</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-award"></i>
+                                <span>Certificate Earned</span>
+                            </div>
+                        </div>
+                        <div class="course-tags">
+                            <span class="tag tag-red">Python</span>
+                            <span class="tag tag-red">Programming</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="course-card" data-gradient="indigo">
+                    <div class="course-header gradient-indigo">
+                        <i class="fas fa-desktop"></i>
+                        <h3>Endpoint Security</h3>
+                    </div>
+                    <div class="course-content">
+                        <p>Comprehensive endpoint protection strategies, threat prevention, and security management launched by Cisco Networking Academy and FemsTech Academy.</p>
+                        <div class="course-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-clock"></i>
+                                <span>Completed in 2025</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-award"></i>
+                                <span>Certificate Earned</span>
+                            </div>
+                        </div>
+                        <div class="course-tags">
+                            <span class="tag tag-indigo">Endpoint</span>
+                            <span class="tag tag-indigo">Protection</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="femstech" class="femstech-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">FemsTech Learning Experience</h2>
+                <p class="section-subtitle">Specialized training in cutting-edge technologies focusing on cybersecurity, artificial intelligence, and Python programming with hands-on projects and real-world applications.</p>
+            </div>
+            
+            <div class="specializations-grid">
+                <div class="specialization-card spec-red">
+                    <div class="spec-header">
+                        <div class="spec-icon bg-red">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Cybersecurity</h3>
+                    </div>
+                    <p class="spec-description">Advanced cybersecurity training covering threat detection, risk assessment, and security implementation strategies launched by Cisco Networking Academy and FemsTech Academy in 2025.</p>
+                    <div class="spec-skills">
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-red"></i>
+                            <span>Threat Detection & Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-red"></i>
+                            <span>Security Risk Assessment</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-red"></i>
+                            <span>Network Security Implementation</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-red"></i>
+                            <span>Incident Response Protocols</span>
+                        </div>
+                    </div>
+                    <div class="spec-projects">
+                        <h4>Key Projects:</h4>
+                        <ul>
+                            <li>• Network security assessment</li>
+                            <li>• Threat analysis documentation</li>
+                            <li>• Security protocol implementation</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="specialization-card spec-blue">
+                    <div class="spec-header">
+                        <div class="spec-icon bg-blue">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>Artificial Intelligence</h3>
+                    </div>
+                    <p class="spec-description">Comprehensive AI course covering machine learning fundamentals, neural networks, and practical AI applications launched by Cisco Networking Academy and FemsTech Academy in 2025.</p>
+                    <div class="spec-skills">
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-blue"></i>
+                            <span>Machine Learning Fundamentals</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-blue"></i>
+                            <span>Neural Network Architecture</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-blue"></i>
+                            <span>AI Application Development</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-blue"></i>
+                            <span>Data Processing & Analysis</span>
+                        </div>
+                    </div>
+                    <div class="spec-projects">
+                        <h4>Key Projects:</h4>
+                        <ul>
+                            <li>• Machine learning model development</li>
+                            <li>• AI-powered data analysis</li>
+                            <li>• Intelligent system design</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="specialization-card spec-green">
+                    <div class="spec-header">
+                        <div class="spec-icon bg-green">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Python Programming</h3>
+                    </div>
+                    <p class="spec-description">Foundational Python programming course covering syntax, data structures, and programming fundamentals launched by Cisco Networking Academy and FemsTech Academy in 2025.</p>
+                    <div class="spec-skills">
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-green"></i>
+                            <span>Python Syntax & Fundamentals</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-green"></i>
+                            <span>Data Structures & Algorithms</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-green"></i>
+                            <span>Object-Oriented Programming</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-check-circle text-green"></i>
+                            <span>Problem-Solving Techniques</span>
+                        </div>
+                    </div>
+                    <div class="spec-projects">
+                        <h4>Key Projects:</h4>
+                        <ul>
+                            <li>• Python application development</li>
+                            <li>• Data manipulation scripts</li>
+                            <li>• Algorithm implementation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="femstech-experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Experience with FemsTech Worldwide Organization</h2>
+                <p class="section-subtitle">FemsTech, an innovative Afghan organization dedicated to empowering women in technology, has provided an exceptional learning platform combining technical excellence with global collaboration through comprehensive courses, expert-led sessions, and professional development opportunities.</p>
+            </div>
+            
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <h3>Expert-Led Education Platform</h3>
+                    </div>
+                    <p>Engaged with FemsTech's comprehensive StudyHub featuring courses, sessions, and webinars delivered by industry experts and professional instructors.</p>
+                    <div class="exp-highlights">
+                        <h4>Key Highlights:</h4>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Access to expert instructors from diverse tech backgrounds</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Structured learning paths in AI, cybersecurity, and programming</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Interactive sessions and practical workshops</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Empowering Women in Technology</h3>
+                    </div>
+                    <p>Participated in FemsTech's mission-driven community focused on breaking barriers and creating opportunities for women in the Afghan tech ecosystem.</p>
+                    <div class="exp-highlights">
+                        <h4>Key Highlights:</h4>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Supportive network of female tech professionals</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Mentorship from successful women in technology</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Career guidance and professional development</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <h3>Comprehensive Learning Resources</h3>
+                    </div>
+                    <p>Utilized FemsTech's diverse educational offerings including Python programming, cybersecurity fundamentals, and emerging technology courses.</p>
+                    <div class="exp-highlights">
+                        <h4>Key Highlights:</h4>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Beginner to advanced level course progression</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Practical hands-on learning approach</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Industry-relevant curriculum and projects</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-card">
+                    <div class="exp-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Global Afghan Tech Initiative</h3>
+                    </div>
+                    <p>Contributing to FemsTech's vision of advancing Afghanistan's technology sector while connecting with the global tech community.</p>
+                    <div class="exp-highlights">
+                        <h4>Key Highlights:</h4>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Representing Afghan women in technology</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Building bridges between local and international tech communities</span>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="highlight-dot"></div>
+                            <span>Promoting innovation and digital literacy</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial">
+                <div class="testimonial-content">
+                    <i class="fas fa-book-open testimonial-icon"></i>
+                    <h3>Transformative Learning Journey</h3>
+                    <p>"FemsTech has been transformative in my journey as an Afghan woman in technology. Through their expert-led courses, supportive community, and commitment to empowering women in tech, I've gained not only technical skills but also the confidence to pursue my career goals in cybersecurity, AI, and programming."</p>
+                    <div class="testimonial-author">- Zahra Paayanda</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills & Competencies</h2>
+                <p class="section-subtitle">A comprehensive skill set developed through intensive learning and hands-on practice across multiple technology domains.</p>
+            </div>
+            
+            <div class="skills-container">
+                <div class="technical-skills">
+                    <div class="skills-card">
+                        <h3 class="skills-card-title">
+                            <i class="fas fa-code"></i>
+                            Technical Skills
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python Programming</span>
+                                    <span class="skill-percent">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90%" style="background: linear-gradient(to right, #10b981, #059669);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Network Security</span>
+                                    <span class="skill-percent">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85%" style="background: linear-gradient(to right, #ef4444, #dc2626);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Cisco Networking</span>
+                                    <span class="skill-percent">88%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88%" style="background: linear-gradient(to right, #3b82f6, #2563eb);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">AI & Machine Learning</span>
+                                    <span class="skill-percent">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80%" style="background: linear-gradient(to right, #8b5cf6, #7c3aed);"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Cybersecurity</span>
+                                    <span class="skill-percent">82%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="82%" style="background: linear-gradient(to right, #f97316, #ea580c);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="certificates-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Certificates & Achievements</h2>
+                <p class="section-subtitle">Recognition of completed coursework and demonstrated competency in various technology domains.</p>
+            </div>
+            
+            <div class="certificates-grid">
+                <div class="certificate-card cert-blue">
+                    <div class="cert-header">
+                        <div class="cert-icon bg-blue">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Artificial Intelligence Fundamentals</h3>
+                            <p>IBM SkillsBuild</p>
+                        </div>
+                    </div>
+                    <p class="cert-description">Comprehensive AI fundamentals covering machine learning concepts and practical applications</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Issued: Jan 08, 2025</span>
+                        <a href="https://www.credly.com/badges/db3dffd1-ab28-4225-8683-3888b282bf94" target="_blank" class="cert-verify text-blue">Verify Badge</a>
+                    </div>
+                </div>
+
+                <div class="certificate-card cert-purple">
+                    <div class="cert-header">
+                        <div class="cert-icon bg-purple">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>AI Fundamentals</h3>
+                            <p>Cisco Networking Academy & FemsTech</p>
+                        </div>
+                    </div>
+                    <p class="cert-description">Advanced artificial intelligence and machine learning fundamentals certification</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Issued: Jan 11, 2025</span>
+                        <span>
+                            <a href="https://www.credly.com/badges/4b7f3532-5621-41d2-b560-2d2cba14d776/public_url" target="_blank" class="cert-verify text-purple">Verified</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="certificate-card cert-red">
+                    <div class="cert-header">
+                        <div class="cert-icon bg-red">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Introduction to Cybersecurity</h3>
+                            <p>Cisco Networking Academy & FemsTech</p>
+                        </div>
+                    </div>
+                    <p class="cert-description">Comprehensive cybersecurity fundamentals and threat management principles</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Issued: Jan 31, 2025</span>
+                        <span>
+                            <a href="https://www.credly.com/badges/eba4e54f-169d-4a0f-ae24-22a449b0adf6/public_url" target="_blank"  class="cert-verify text-red">Verified</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="certificate-card cert-green">
+                    <div class="cert-header">
+                        <div class="cert-icon bg-green">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Networking Basics</h3>
+                            <p>Cisco Networking Academy & FemsTech</p>
+                        </div>
+                    </div>
+                    <p class="cert-description">Essential networking concepts, protocols, and infrastructure fundamentals</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Issued: Feb 16, 2025</span>
+                        <span>
+                            <a href="https://www.credly.com/badges/30b266d5-c7e8-4094-ba0c-ec6a4aa889d5/public_url" target="_blank"  class="cert-verify text-green">Verified</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="certificate-card cert-orange">
+                    <div class="cert-header">
+                        <div class="cert-icon bg-orange">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Endpoint Security</h3>
+                            <p>Cisco Networking Academy & FemsTech</p>
+                        </div>
+                    </div>
+                    <p class="cert-description">Advanced endpoint protection strategies and security management techniques</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Issued: Mar 13, 2025</span>
+                        <span>
+                            <a href="https://www.credly.com/badges/fd4b988d-d02f-4394-8a89-bfbef2b71726/public_url" target="_blank" class="cert-verify text-orange">Verified</a>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="certificate-card cert-yellow">
+                    <div class="cert-header">
+                        <div class="cert-icon bg-yellow">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="cert-info">
+                            <h3>Python Essentials 1</h3>
+                            <p>Cisco Networking Academy & FemsTech</p>
+                        </div>
+                    </div>
+                    <p class="cert-description">Foundational Python programming covering syntax, data structures, and fundamentals</p>
+                    <div class="cert-footer">
+                        <span class="cert-date">Issued: Mar 15, 2025</span>
+                        <span>
+                            <a href="https://www.credly.com/badges/3c66abb6-58f3-4a18-b0f9-77b020a08255/public_url" target="_blank" class="cert-verify text-yellow">Verified</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and explore opportunities in technology</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's talk about technology and learning</h3>
+                    <p>I'm always interested in discussing technology, sharing learning experiences, and connecting with fellow tech enthusiasts. Whether you have questions about my journey or want to collaborate, feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>zahrapaayanda@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Afghanistan</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/zahra-paayanda-4631b32a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Paayanda" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/ZPaayanda?t=ch39lgrbNj3rxraP2NGPOA&s=09" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Zahra Paayanda. All rights reserved.</p>
+                <p>Designed & Developed with <i class="fas fa-heart"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
